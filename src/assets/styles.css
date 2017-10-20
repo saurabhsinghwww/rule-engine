@@ -1,0 +1,130 @@
+ body {
+  background: rgb(219,219,219);
+ }
+
+ .header {
+
+  padding-top: 5px;
+  text-align: center;
+  font-weight: bold;
+
+ }
+
+ .rule-param {
+   
+  overflow: hidden;  
+
+ }
+ .rule-param label{
+
+   color: black;
+   display: inline-block;
+   padding-right: 10px;
+
+ }
+
+ .rule-param input[type="number"]{
+  
+     display: inline-block;
+     margin-right: 10px;
+   }
+
+ .rule-param input[type="button"]{
+  
+     display: block;
+     float: right;
+   }
+
+ .rule-heading:hover {  
+   cursor:pointer;
+  }
+
+ .rules {
+	 
+   margin: auto;
+   width: 45%;
+   height: 75%;
+   overflow: auto;  
+ }
+ 
+ label {
+   color: white;
+   font-weight: bold;
+  }
+  .rule{
+     background: blue;
+     overflow: hidden;  
+     background: rgb(147,147,147);     
+     margin: 15px 0px;
+  }
+  .rule-content{
+     background: rgb(147,147,147);
+     margin: 15px;
+     overflow: hidden;  
+  }
+  .hide {
+    height: 0px;
+    margin: 0px;
+  }
+  textarea {
+   display: block;
+   width: 100%;   
+   box-sizing: border-box;
+   background: rgb(219,219, 219);   
+   color: black;
+   font-size: 15px;
+   font-weight: bold;
+   text-align:centre;
+   pointer-events: none;
+  }
+  .rule-number {
+   display: inline-block;
+   width: 10%;   
+   line-height: 30px;
+   background: rgba(152,191, 66, 1);
+   height: 30px;
+   text-align: center;
+   box-sizing: border-box; 
+   cursor:inherit;
+  }
+
+  .rule-number-failure {
+    background: rgba(236,68, 78, 1);
+  }
+
+  .rule-title {
+   display: inline-block;
+   background: rgba(118,170, 20, 1);
+   width: 90%;   
+   line-height: 30px;
+   height: 30px;
+   padding-left: 10px;
+   box-sizing: border-box; 
+   cursor:inherit;
+  }
+
+  .rule-title-failure {
+    background: rgba(225,7, 19, 1);
+  }
+
+  .rule-body {
+   margin-bottom:10px;   
+  }
+  .rule-passed {
+   float: left;
+   width: 48%;
+  }
+  .rule-failed {
+   float: right;
+   width: 48%;
+  }
+  .rule-output {
+   display: inline-block;
+   width:100%;
+   background: rgb(219,219, 219);
+   text-align: left;
+   height: 30px;
+   line-height: 30px;
+   padding-left:5px;
+   color: black;
+  }

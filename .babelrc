@@ -1,0 +1,6 @@
+{
+    "presets": ["es2015", "react", "stage-2"],//for new feature
+    // es2015-> to 2016 , react -> for JSX before compiling to JS preset use JSX code and convert to react code
+    "plugins": [
+    ]
+}

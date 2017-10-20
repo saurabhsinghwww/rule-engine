@@ -1,0 +1,32 @@
+var rules = [
+    {
+        "id": 1,
+        "title": "Rule 01",
+        "rule": "return ( Math.floor(Math.random() * 10) + param )%2 === 1",
+        "true_id": 2,
+        "false_id": 3
+    },
+    {
+        "id": 2,
+        "title": "Rule 02",
+        "rule": "return ( Math.floor(Math.random() * 10) + param )%2 === 1",
+        "true_id": 3,
+        "false_id": 1
+    },
+    {
+        "id": 3,
+        "title": "Rule 03",
+        "rule": "return ( Math.floor(Math.random() * 10) + param )%2 === 0",
+        "true_id": null,
+        "false_id": 4
+    },
+    {
+        "id": 4,
+        "title": "Rule 4",
+        "rule": "return ( Math.floor(Math.random() * 10) + param )%2 === 1",
+        "true_id": null,
+        "false_id": 3
+    }
+]
+
+export default rules;
